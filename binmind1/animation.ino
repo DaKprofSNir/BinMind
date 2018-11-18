@@ -17,7 +17,7 @@ void animation_looser(void){
 /*  Explication des 1<<i 
  *   
  *  1 = 00000001 en binaire
- *  1<<i donne 1 poussé i fois
+ *  1<<i donne 1 poussé i fois, c'est un décalage à gauche.
  *  1<<0 donne 00000001 (un 1 poussé  zéro fois vers la gauche)
  *  1<<3 donne 00001000 (un 1 poussé trois fois vers la gauche)
  */
