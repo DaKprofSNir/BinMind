@@ -2,11 +2,11 @@
 -----------Presentation -----------------------------------
 Bindmind est un jeu de binaire.
 
-Le but est de trouver le code hexad�cimal (z�ro � F) affich� en binaire.
+Le but est de trouver le code hexadécimal (zéro à F) affiché en binaire.
 
 Le jeu affiche un code en binaire.
-   Bit allum� = bit � 1
-   Bit clignotant = bit � z�ro
+   Bit allumé = bit à 1
+   Bit clignotant = bit à zéro
 Pour gagner vous devez envoyer la lettre [0123456789ABCDEF] qui correspond au code.
 
 -------- Montage -------------------------------------------
