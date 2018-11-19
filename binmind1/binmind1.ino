@@ -7,7 +7,7 @@ void setup(){
     PORTB = 0x3F; // 0011 1111 on allume les 6 LEDs
     //---------- Initialisation de l'USART --------------------------
     UCSR0A = 0x00; // reset status + vitesse non doublée
-    UCSR0C = 0x0E; // 00001110 8 bits de données, 1 start, 2 stop, pas de parité, mode asynchrone.
+    UCSR0C = ____; // 00001110 8 bits de données, 1 start, 2 stop, pas de parité, mode asynchrone.
     UBRR0L = ____; // 9600Bds poid faible de (SysClock / (16 * bauds)) -1
     UBRR0H = ____; // 9600Bds poid fort de (SysClock / (16 * bauds)) -1
     UCSR0B = 0x18; // 00011000 Autoriser Réception + Emission
